@@ -24,7 +24,7 @@ test_list[maxnum_3_index[0]] = max1 - max1_duo
 test_list[maxnum_3_index[1]] = max2 - max2_duo
 test_list[maxnum_3_index[2]] = max3 - max3_duo
 
-cccc = test_list[2:36]
+cccc = test_list[2:42]
 cccclist = []
 already = 0
 for i in range(len(cccc)):
@@ -35,7 +35,7 @@ cccclist.append((sumduo - already)[0])
 
 print("sum:", sum(cccclist))
 print(cccclist)
-for ii, jj in zip(range(2, 36), cccclist):
+for ii, jj in zip(range(2, 42), cccclist):
     test_list[ii] = test_list[ii] + jj
 
 print(test_list)
